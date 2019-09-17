@@ -1,0 +1,26 @@
+List of Components use in this project
+
+App
+    Header 1    done
+    Products 2  done
+        Product 3
+        Product 3
+        Product 3
+    Message 4
+    Cart 5
+        Cart item 6
+        Cart item 6
+        ...
+        CartResult 7
+    Footer 8    done
+
+
+REDUX
+    -tạo folder: reducers, actions, constants, containers 
+    - trong reducer: tạo 1 reducer lớn để combine các reducer còn tại thành 1
+    - tạo store: import createStore, reducer, Provider vào index.js(app, root), 
+    - Tạo Products container chứa import Products component, các hàm của nó, props
+        các thao tác lấy dữ liệu từ store, map state to props thực hiện trong component này
+        Hiển thị sản phẩm
+    - Chức năng thêm sản phẩm vào giỏ:
+        + Tạo các const actiontype, tạo action => tạo reducer add to cart 
